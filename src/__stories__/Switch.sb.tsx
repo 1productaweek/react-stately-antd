@@ -1,14 +1,14 @@
 import React from 'react'
 import StatelyWrapper from './StatelyWrapper'
-import DatePicker from '../DatePicker'
+import Switch from '../Switch'
 
 export default {
-  title: 'DatePicker',
-  component: DatePicker,
+  title: 'Switch',
+  component: Switch,
 }
 
 export const Default = () => (
   <StatelyWrapper>
-    <DatePicker field='date' />
+    <Switch field='search' />
   </StatelyWrapper>
 )

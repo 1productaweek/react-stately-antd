@@ -1,14 +1,14 @@
 import React from 'react'
 import StatelyWrapper from './StatelyWrapper'
-import DatePicker from '../DatePicker'
+import Search from '../Search'
 
 export default {
-  title: 'DatePicker',
-  component: DatePicker,
+  title: 'Search',
+  component: Search,
 }
 
 export const Default = () => (
   <StatelyWrapper>
-    <DatePicker field='date' />
+    <Search field='search' />
   </StatelyWrapper>
 )

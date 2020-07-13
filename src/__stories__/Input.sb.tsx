@@ -8,9 +8,7 @@ export default {
 }
 
 export const Default = () => (
-  <div style={{ padding: '1em' }}>
-    <StatelyWrapper>
-      <Input field='date' />
-    </StatelyWrapper>
-  </div>
+  <StatelyWrapper>
+    <Input field='input' />
+  </StatelyWrapper>
 )
