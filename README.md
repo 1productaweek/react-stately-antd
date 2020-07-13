@@ -1,12 +1,7 @@
-# 1PAW - NPM Starter
+# 1PAW - React Stately Antd
 
-This project is an npm package starter used by @calummoore for @1productaweek.
+Combines Antd and React Stately.
 
-It has the following additional features:
-
- * ✅ Typescript
- * ✅ Opinionated ESLint
- * ✅ Jest
- * ✅ React (optional)
-
+ * ✅ [Antd](https://ant.design/)
+ * ✅ [React Stately](https://github.com/1productaweek/react-stately)
 
