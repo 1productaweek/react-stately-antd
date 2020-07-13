@@ -19,6 +19,7 @@
   ],
   "author": "Calum Moore",
   "license": "MIT",
+  "homepage": "https://github.com/1productaweek/react-stately-antd",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
