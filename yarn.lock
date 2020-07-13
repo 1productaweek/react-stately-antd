@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@1productaweek/react-stately@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@1productaweek/react-stately/-/react-stately-0.1.2.tgz#a81f097e304ac90374959de06b2b59075f4719be"
+  integrity sha512-dLeoZydXrvgoZV8HO5k/Q/6Vf0ghZHsrZ+zDDqHNhsP9a5083J3W2iaEvWTpB0mA3kHk1j/3e7AiO6ieDDLFUA==
+  dependencies:
+    array-move "^2.2.2"
+    immer "^7.0.3"
+    lodash "^4.17.15"
+
 "@babel/cli@^7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.10.4.tgz#ba38ad6d0b4b772a67b106934b7c33d656031896"
@@ -2967,6 +2976,11 @@ array-includes@^3.1.1:
     es-abstract "^1.17.0"
     is-string "^1.0.5"
 
+array-move@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/array-move/-/array-move-2.2.2.tgz#c125f84d64e2f4bc09147f91f900a1bf58bb25d1"
+  integrity sha512-lKc6C+nsOSA1o7eHSP/HshlGDYUI7QKyaus5kPDm2zEEPQID9xlspnraLR8l+rDlqg9mGo8ziE7F8TEnF6D3Tw==
+
 array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
@@ -5828,6 +5842,11 @@ ignore@^5.1.1:
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
+
+immer@^7.0.3:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.5.tgz#8af347db5b60b40af8ae7baf1784ea4d35b5208e"
+  integrity sha512-TtRAKZyuqld2eYjvWgXISLJ0ZlOl1OOTzRmrmiY8SlB0dnAhZ1OiykIDL5KDFNaPHDXiLfGQFNJGtet8z8AEmg==
 
 import-fresh@^3.0.0, import-fresh@^3.1.0:
   version "3.2.1"

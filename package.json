@@ -1,7 +1,7 @@
 {
-  "name": "@1productaweek/npm-starter",
+  "name": "@1productaweek/react-stately-antd",
   "version": "0.1.0",
-  "description": "NPM starter package.",
+  "description": "React Stately wrapper for antd inputs",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -70,8 +70,11 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "watch": "^1.0.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@1productaweek/react-stately": "^0.1.2"
+  },
   "peerDependencies": {
+    "antd": "^4.4.2",
     "react": "^16.13.1"
   },
   "jest": {
