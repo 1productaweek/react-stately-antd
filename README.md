@@ -1,4 +1,4 @@
-# 1PAW - React Stately Antd
+# React Stately Antd
 
 Combines Antd and React Stately.
 
