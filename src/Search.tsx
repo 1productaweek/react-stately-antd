@@ -3,7 +3,7 @@ import AntInput, { SearchProps } from 'antd/es/input'
 import { useStatelyField } from '@1productaweek/react-stately'
 
 export interface StatelySearchProps extends SearchProps {
-  field: string
+  field: string|string[]
   initialValue?: string
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
 }

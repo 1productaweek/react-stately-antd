@@ -3,7 +3,7 @@ import AntSwitch, { SwitchProps } from 'antd/es/switch'
 import { useStatelyField } from '@1productaweek/react-stately'
 
 export interface StatelySwitchProps extends SwitchProps {
-  field: string
+  field: string|string[]
   initialValue?: number
 }
 

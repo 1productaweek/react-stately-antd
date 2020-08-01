@@ -5,7 +5,7 @@ import { useStatelyField } from '@1productaweek/react-stately'
 const { Option } = AntSelect
 
 export interface StatelySelectProps<VT = SelectValue> extends SelectProps<VT> {
-  field: string
+  field: string|string[]
   options?: { label: string, value: string }[]
   initialValue?: SelectValue
 }

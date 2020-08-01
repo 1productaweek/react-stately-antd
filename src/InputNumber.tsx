@@ -3,7 +3,7 @@ import AntInputNumber, { InputNumberProps } from 'antd/es/input-number'
 import { useStatelyField } from '@1productaweek/react-stately'
 
 export interface StatelyInputNumberProps extends InputNumberProps {
-  field: string
+  field: string|string[]
   initialValue?: number
 }
 

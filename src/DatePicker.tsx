@@ -5,7 +5,7 @@ import moment from 'moment'
 import { useStatelyField } from '@1productaweek/react-stately'
 
 export interface StatelyDatePickerProps extends PickerDateProps<any> {
-  field: string
+  field: string|string[]
   initialValue?: number
   onChange?: (value: moment.Moment | null) => void
 }

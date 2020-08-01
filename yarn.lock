@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@1productaweek/react-stately@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@1productaweek/react-stately/-/react-stately-0.1.2.tgz#a81f097e304ac90374959de06b2b59075f4719be"
-  integrity sha512-dLeoZydXrvgoZV8HO5k/Q/6Vf0ghZHsrZ+zDDqHNhsP9a5083J3W2iaEvWTpB0mA3kHk1j/3e7AiO6ieDDLFUA==
+"@1productaweek/react-stately@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@1productaweek/react-stately/-/react-stately-0.1.4.tgz#bd49a2e0652c2a0f6aca6d5575e4f45f9389c880"
+  integrity sha512-IZ0yZ+bgaH59dWk3XjWLAtIUWE/uT+01dWyGQx2qPLJ47mkr+N2n9V0u8x0523LuGa0yMFTFpPxn6I3amSIjIA==
   dependencies:
     array-move "^2.2.2"
     immer "^7.0.3"
