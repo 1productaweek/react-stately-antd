@@ -23,6 +23,6 @@ export const Default = () => (
 
 export const Button = () => (
   <StatelyWrapper>
-    <RadioGroup button size='small' field='input' options={options} />
+    <RadioGroup optionType='button' size='small' field='input' options={options} />
   </StatelyWrapper>
 )
