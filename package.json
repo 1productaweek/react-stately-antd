@@ -89,6 +89,7 @@
   },
   "dependencies": {
     "@1productaweek/react-stately": "^0.1.4",
+    "lodash": "^4.17.19",
     "moment": "^2.27.0"
   },
   "peerDependencies": {
