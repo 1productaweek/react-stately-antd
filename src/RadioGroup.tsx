@@ -3,7 +3,7 @@ import Radio, { RadioGroupProps as RadioGroupPropsAnt, RadioChangeEvent } from '
 import { CheckboxOptionType } from 'antd/es/checkbox'
 import { useStatelyField } from '@1productaweek/react-stately'
 
-interface ButtonGroupProps extends RadioGroupPropsAnt {
+interface RadioGroupProps extends RadioGroupPropsAnt {
   field: string|string[]
   initialValue?: string
   onChange?: (e: RadioChangeEvent) => void
@@ -12,7 +12,7 @@ interface ButtonGroupProps extends RadioGroupPropsAnt {
   children?: React.ReactNode
 }
 
-export default function ButtonGroup ({ field, onChange, initialValue, ...props }: ButtonGroupProps) {
+export default function RadioGroup ({ field, onChange, initialValue, ...props }: RadioGroupProps) {
   const [value, setValue] = useStatelyField(field, { initialValue })
 
   return (
