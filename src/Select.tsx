@@ -6,11 +6,10 @@ const { Option } = AntSelect
 
 export interface StatelySelectProps<VT = SelectValue> extends SelectProps<VT> {
   field: string|string[]
-  options?: { label: string, value: string }[]
   initialValue?: SelectValue
 }
 
-function StatelySelect <VT extends SelectValue> ({ field, onChange, initialValue, options, children, ...props }: StatelySelectProps<VT>) {
+function StatelySelect <VT extends SelectValue> ({ field, onChange, initialValue, ...props }: StatelySelectProps<VT>) {
   const [value, setValue] = useStatelyField<VT>(field, { initialValue })
   return (
     <AntSelect
@@ -20,9 +19,7 @@ function StatelySelect <VT extends SelectValue> ({ field, onChange, initialValue
         setValue(value)
         if (onChange) onChange(value, option)
       }}
-    >
-      {options ? options.map(({ value, label }) => <Option key={value} value={value}>{label}</Option>) : children}
-    </AntSelect>
+    />
   )
 }
 
