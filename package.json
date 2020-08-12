@@ -1,6 +1,6 @@
 {
   "name": "@1productaweek/react-stately-antd",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "React Stately wrapper for antd inputs",
   "main": "dist/index.js",
   "scripts": {
@@ -92,9 +92,9 @@
     "moment": "^2.27.0"
   },
   "peerDependencies": {
+    "@1productaweek/react-stately": "^0.1.5",
     "antd": "^4.4.2",
-    "react": "^16.13.1",
-    "@1productaweek/react-stately": "^0.1.5"
+    "react": "^16.13.1"
   },
   "jest": {
     "roots": [
